@@ -1,0 +1,147 @@
+.total{
+    background-color: hsl(213, 19%, 18%);
+    height: 428px;
+    width: 414px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+
+.titulo{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.subtitle{
+    position: relative;
+    margin-left: 30%;
+    margin-top: 8%;
+}
+
+.circulo{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(45, 55, 66);
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+    position:relative;
+}
+
+.estrella{
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.boton{
+    font-family: Overpass;
+    font-weight: 400;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(45, 55, 66);
+    border-style: solid;
+    border-width: 0px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.boton:hover{
+    background-color: hsl(216, 12%, 54%);
+}
+
+.boton:active{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.boton:focus{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.papucho{
+    position: relative;
+    top: 30px;
+    left: 33px;
+}
+
+.boton2{
+    width: 350px;
+    height: 50px;
+    border-radius: 35px;
+    font-family: Overpass;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    border-style: none;
+}
+
+.boton2:active{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.imagentele{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 29%;
+}
+
+.puntaje{
+    height: 25px;
+    width: 190px;
+    background-color: rgb(45, 55, 66);
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 27%;
+}
+
+.puntaje2{
+    font-family: Overflow;
+    font-weight: 400;
+    color: hsl(25, 97%, 53%);
+    position:relative;
+    vertical-align: middle;
+    top: 4px;
+}
+
+.texto{
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+body{
+    width: 1440px;
+    height: 800px;
+    background-color: hsl(216, 12%, 8%);
+}
+
+h1{
+    font-family: Overpass;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+p1{
+    font-family: Overpass;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    margin-left: 30px;
+    justify-content:baseline;
+}
+
+p2{
+    font-family: Overpass;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-bottom: 10%;
+}
